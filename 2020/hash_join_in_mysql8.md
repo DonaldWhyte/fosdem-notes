@@ -33,3 +33,11 @@ Hash join impl doesn't guarantee ordered output, like many nested loop algos.
 Speed ups between 30x to 1600x faster.
 
 Handles very large joins, note that the join buffer size (max amount of bytes to put in memory in build table, etc.). Can tweak.
+
+## Notes on Discussion
+
+Global buffer bytes used across all queries not monitored centrally, so tons of join queries at once, it can result in the DB being OOM killed!
+
+Why use multiple chunk files? Why not 1 file w/ logical chunks?
+
+Chunk files are stored in same place all MySQL temp files go -- in its configured temp dir.
