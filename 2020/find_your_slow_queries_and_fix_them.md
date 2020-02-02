@@ -116,8 +116,8 @@ To see if your indices are actually useful, you can use how often they're being 
 
 ## Useful Summaries
 
-[]()
+[fixing_slow_queries_1](fixing_slow_queries_1.png)
 
-[]()
+[fixing_slow_queries_2](fixing_slow_queries_2.png)
 
-[]()
+[final_tuning_tips](final_tuning_tips.png)
