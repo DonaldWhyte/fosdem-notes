@@ -70,11 +70,11 @@ Writes are added to a WAL. Lots of race conditions here.
 
 Bad solution:
 
-[TODO]
+[bad_solution.png]
 
 Good solution:
 
-[TODO]
+[good_solution.ng]
 
 
 ## `io_uring`
